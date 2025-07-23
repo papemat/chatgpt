@@ -1,0 +1,26 @@
+
+TokIntel v2 - Setup LM Studio + Modello Locale
+
+1. SCARICA IL MODELLO:
+   Consigliato: Nous Hermes 2 - Mistral DPO (Q8_0)
+   Link: https://huggingface.co/TheBloke/nous-hermes-2-mistral-7B-GGUF
+
+2. AVVIA LM STUDIO:
+   - Apri LM Studio
+   - Clicca "Settings" -> attiva "Accept local requests"
+   - Importa il file .gguf del modello
+   - Clicca "Open in Chat" -> Copia l'indirizzo API (es: http://localhost:1234)
+
+3. CONFIGURA synthesis.py:
+   - Usa endpoint: http://localhost:1234/v1/chat/completions
+   - Assicurati che LM Studio sia in esecuzione PRIMA di lanciare TokIntel
+
+4. TEST:
+   - Esegui `run_tokintel.py` oppure avvia GUI `streamlit_app.py`
+   - Verifica che la sintesi venga generata dal modello locale
+
+NOTE:
+- Puoi cambiare modello locale in qualsiasi momento
+- Alcuni modelli potrebbero richiedere piu RAM (consigliati almeno 16 GB)
+
+Fine setup ✅

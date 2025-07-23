@@ -1,0 +1,17 @@
+
+model: gpt-4
+language: it
+
+keywords:
+  - motivazione
+  - hook
+  - viral
+  - emozione
+
+weights:
+  keywords: 1.5
+  speech_density: 1.0
+  ocr: 1.2
+
+export_format: [csv, json]
+output_folder: output/
