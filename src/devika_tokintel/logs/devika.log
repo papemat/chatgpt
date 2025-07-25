@@ -1,0 +1,297 @@
+2025-07-24 02:19:22,990 [INFO] Running task: system_health
+2025-07-24 02:40:35,825 [INFO] Running task: test_integrations
+2025-07-24 02:40:39,894 [INFO] Running task: system_health
+2025-07-24 02:47:04,856 [INFO] Running task: test_integrations
+2025-07-24 02:54:10,509 [INFO] Running task: test_whisper
+2025-07-24 03:02:21,644 [INFO] Running task: test_whisper
+2025-07-24 03:02:32,407 [INFO] Running task: test_whisper
+2025-07-24 03:05:29,899 [INFO] Running task: test_whisper
+2025-07-24 03:05:38,231 [INFO] Running task: test_whisper
+2025-07-24 03:05:46,065 [INFO] Running task: test_whisper
+2025-07-24 03:05:56,736 [INFO] Running task: test_whisper
+2025-07-24 03:05:58,250 [INFO] Loading local Whisper model: base
+2025-07-24 03:06:11,732 [ERROR] Failed to load local Whisper model: don't know how to restore data location of torch.storage.UntypedStorage (tagged with auto)
+2025-07-24 03:06:18,173 [INFO] Running task: test_huggingface
+2025-07-24 03:06:26,702 [INFO] Running task: test_huggingface
+2025-07-24 03:06:30,412 [INFO] Loading summarization pipeline: facebook/bart-large-cnn
+2025-07-24 03:06:30,915 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-24 03:08:54,785 [INFO] \u2705 summarization pipeline loaded successfully
+2025-07-24 03:08:54,785 [INFO] Loading sentiment pipeline: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-24 03:08:55,485 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-24 03:09:39,941 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-24 03:09:40,588 [INFO] \u2705 sentiment pipeline loaded successfully
+2025-07-24 03:09:40,588 [INFO] Loading ner pipeline: dbmdz/bert-large-cased-finetuned-conll03-english
+2025-07-24 03:09:40,894 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-24 03:12:20,356 [ERROR] Failed to load ner pipeline: TokenClassificationPipeline._sanitize_parameters() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,470 [ERROR] Summarization failed: BartForConditionalGeneration.forward() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,470 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,470 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,470 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,470 [ERROR] Keyword extraction failed: NER pipeline not available
+2025-07-24 03:12:20,471 [INFO] Processing 1/3: sentiment
+2025-07-24 03:12:20,471 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Batch processing failed for text 0: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [INFO] Processing 2/3: sentiment
+2025-07-24 03:12:20,471 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Batch processing failed for text 1: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [INFO] Processing 3/3: sentiment
+2025-07-24 03:12:20,471 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Batch processing failed for text 2: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Benchmark failed for text 0: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Benchmark failed for text 1: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Classification failed: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:12:20,471 [ERROR] Benchmark failed for text 2: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'cache_dir'
+2025-07-24 03:13:15,506 [INFO] Running task: test_huggingface
+2025-07-24 03:13:18,957 [INFO] Loading summarization pipeline: facebook/bart-large-cnn
+2025-07-24 03:13:19,896 [INFO] \u2705 summarization pipeline loaded successfully
+2025-07-24 03:13:19,896 [INFO] Loading sentiment pipeline: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-24 03:13:20,656 [INFO] \u2705 sentiment pipeline loaded successfully
+2025-07-24 03:13:20,656 [INFO] Loading ner pipeline: dbmdz/bert-large-cased-finetuned-conll03-english
+2025-07-24 03:13:21,049 [INFO] \u2705 ner pipeline loaded successfully
+2025-07-24 03:13:23,588 [ERROR] NER failed: 'entity_group'
+2025-07-24 03:13:23,669 [ERROR] NER failed: 'entity_group'
+2025-07-24 03:13:23,669 [ERROR] Keyword extraction failed: 'entity_group'
+2025-07-24 03:13:23,669 [INFO] Processing 1/3: sentiment
+2025-07-24 03:13:23,703 [INFO] Processing 2/3: sentiment
+2025-07-24 03:13:23,718 [INFO] Processing 3/3: sentiment
+2025-07-24 03:13:29,330 [INFO] Running task: test_ollama
+2025-07-24 03:13:38,528 [INFO] Running task: test_ollama
+2025-07-24 03:13:42,828 [ERROR] Error refreshing models: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014281C3ED90>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-07-24 03:13:50,506 [INFO] Running task: test_integrations
+2025-07-24 03:14:12,299 [INFO] Running task: test_integrations
+2025-07-24 03:14:22,393 [INFO] Running task: test_integrations
+2025-07-24 03:20:21,838 [INFO] Running task: test_integrations
+2025-07-24 03:40:02,350 [INFO] Running task: test_lmstudio
+2025-07-24 03:40:04,676 [INFO] \u2705 LM Studio server connected at http://localhost:1234/v1/chat/completions
+2025-07-24 03:40:04,677 [INFO] \u2705 LM Studio server connected at http://localhost:1234/v1/chat/completions
+2025-07-24 03:40:04,678 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:04,684 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:05,686 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:06,689 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:06,690 [INFO] \U0001f4ac Sending chat request to LM Studio: mistral
+2025-07-24 03:40:06,691 [INFO] \u26a1 Starting benchmark with 3 prompts
+2025-07-24 03:40:06,691 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:06,692 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:07,695 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:08,696 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:08,696 [INFO]   Prompt 1/3: error
+2025-07-24 03:40:08,696 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:08,698 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:09,701 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:10,702 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:10,702 [INFO]   Prompt 2/3: error
+2025-07-24 03:40:10,702 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:10,703 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:11,705 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:12,707 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the `lms load` command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:12,707 [INFO]   Prompt 3/3: error
+2025-07-24 03:40:12,709 [INFO] \U0001f916 Sending request to LM Studio: text-embedding-nomic-embed-text-v1.5
+2025-07-24 03:40:13,889 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "Failed to load model \"text-embedding-nomic-embed-text-v1.5\". Error: Model is not llm.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:15,467 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "Failed to load model \"text-embedding-nomic-embed-text-v1.5\". Error: Model is not llm.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:17,031 [ERROR] \u274c HTTP 404: {
+    "error": {
+        "message": "Failed to load model \"text-embedding-nomic-embed-text-v1.5\". Error: Model is not llm.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-07-24 03:40:17,032 [INFO] \U0001f916 Sending request to LM Studio: nous-hermes-2-mistral-7b-dpo
+2025-07-24 03:40:21,190 [INFO] \u2705 Response received in 4.16s
+2025-07-24 03:40:26,965 [INFO] Running task: benchmark_llm
+2025-07-24 03:40:27,241 [INFO] \U0001f527 Initializing LLM clients...
+2025-07-24 03:40:29,269 [INFO] \u2705 LM Studio server connected at http://localhost:1234/v1/chat/completions
+2025-07-24 03:40:29,269 [INFO] \u2705 LM Studio client initialized
+2025-07-24 03:40:33,369 [ERROR] Error refreshing models: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A086F32490>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-07-24 03:40:33,369 [INFO] \u2705 Ollama client initialized
+2025-07-24 03:40:33,369 [INFO] \U0001f3af Available backends: ['lmstudio', 'ollama']
+2025-07-24 03:40:33,371 [INFO] \u2705 LM Studio server connected at http://localhost:1234/v1/chat/completions
+2025-07-24 03:40:33,372 [INFO] \U0001f3af Selected preferred backend: lmstudio
+2025-07-24 03:40:33,373 [INFO] \u2705 LM Studio server connected at http://localhost:1234/v1/chat/completions
+2025-07-24 03:40:37,421 [INFO] \u26a1 Starting benchmark for 2 backends
+2025-07-24 03:40:37,421 [INFO]   Testing lmstudio...
+2025-07-24 03:40:37,421 [INFO] \u26a1 Starting benchmark with 5 prompts
+2025-07-24 03:40:37,421 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:39,359 [INFO] \u2705 Response received in 1.94s
+2025-07-24 03:40:39,360 [INFO]   Prompt 1/5: success
+2025-07-24 03:40:39,360 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:40,547 [INFO] \u2705 Response received in 1.19s
+2025-07-24 03:40:40,547 [INFO]   Prompt 2/5: success
+2025-07-24 03:40:40,547 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:48,496 [INFO] \u2705 Response received in 7.95s
+2025-07-24 03:40:48,496 [INFO]   Prompt 3/5: success
+2025-07-24 03:40:48,496 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:51,416 [INFO] \u2705 Response received in 2.92s
+2025-07-24 03:40:51,416 [INFO]   Prompt 4/5: success
+2025-07-24 03:40:51,416 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:40:58,853 [INFO] \u2705 Response received in 7.44s
+2025-07-24 03:40:58,853 [INFO]   Prompt 5/5: success
+2025-07-24 03:40:58,853 [INFO]     lmstudio: 100.0% success, 4.29s avg
+2025-07-24 03:40:58,853 [INFO]   Testing ollama...
+2025-07-24 03:40:58,853 [ERROR]     ollama benchmark failed: 'OllamaClient' object has no attribute 'benchmark'
+2025-07-24 03:40:58,855 [INFO] \U0001f916 Sending prompt to lmstudio
+2025-07-24 03:40:58,855 [INFO] \U0001f916 Sending request to LM Studio: mistral
+2025-07-24 03:41:02,460 [INFO] \u2705 Response received in 3.61s
+2025-07-24 03:41:02,460 [INFO] \u2705 Response from lmstudio in 3.61s
+2025-07-24 03:41:02,461 [INFO] \U0001f916 Sending prompt to ollama
+2025-07-24 03:41:02,461 [ERROR] \u274c Error with ollama: 'OllamaClient' object has no attribute 'ask'
+2025-07-24 03:41:02,461 [INFO] \U0001f4ac Sending chat request to LM Studio: mistral
+2025-07-24 03:41:04,141 [INFO] Chat completion with mistral
+2025-07-24 03:41:08,181 [ERROR] Chat completion error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A086F3C290>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-07-24 03:53:36,362 [INFO] Running task: test_model_management
+2025-07-24 03:53:57,828 [INFO] Running task: test_model_management
+2025-07-24 03:53:58,073 [WARNING] LM Studio models directory not found, using default: C:\Users\Matteo/AppData/Local/LM Studio/models
+2025-07-24 03:53:58,073 [INFO] LM Studio Client initialized with models_dir: C:\Users\Matteo/AppData/Local/LM Studio/models
+2025-07-24 03:54:00,122 [INFO] LM Studio client initialized
+2025-07-24 03:54:00,122 [ERROR] Failed to initialize Ollama client: OllamaConfig.__init__() got an unexpected keyword argument 'available_models'
+2025-07-24 03:54:00,124 [ERROR] Error getting models: 'str' object has no attribute 'get'
+2025-07-24 03:54:00,124 [INFO] Backend lmstudio: \u2705 Available
+2025-07-24 03:54:00,124 [INFO] Using preferred backend: lmstudio
+2025-07-24 03:54:00,124 [INFO] LLM Router initialized with 1 backends
+2025-07-24 03:54:00,124 [INFO] Current backend: lmstudio
+2025-07-24 03:54:00,126 [ERROR] Error getting models: 'str' object has no attribute 'get'
+2025-07-24 03:54:00,126 [INFO] Backend lmstudio: \u2705 Available
+2025-07-24 03:54:00,127 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:00,134 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:00,635 [INFO] Ensuring model 'llama2' is available...
+2025-07-24 03:54:00,642 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:01,143 [INFO] Ensuring model 'llama3' is available...
+2025-07-24 03:54:01,151 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:01,652 [INFO] Ensuring model 'gemma' is available...
+2025-07-24 03:54:01,659 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:02,160 [INFO] Ensuring model 'codellama' is available...
+2025-07-24 03:54:02,169 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:02,670 [INFO] Ensuring model 'llama3' is available...
+2025-07-24 03:54:02,678 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:02,678 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:02,687 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:09,380 [INFO] Running task: benchmark_llm
+2025-07-24 03:54:09,614 [WARNING] LM Studio models directory not found, using default: C:\Users\Matteo/AppData/Local/LM Studio/models
+2025-07-24 03:54:09,614 [INFO] LM Studio Client initialized with models_dir: C:\Users\Matteo/AppData/Local/LM Studio/models
+2025-07-24 03:54:11,631 [INFO] LM Studio client initialized
+2025-07-24 03:54:11,631 [ERROR] Failed to initialize Ollama client: OllamaConfig.__init__() got an unexpected keyword argument 'available_models'
+2025-07-24 03:54:11,633 [ERROR] Error getting models: 'str' object has no attribute 'get'
+2025-07-24 03:54:11,633 [INFO] Backend lmstudio: \u2705 Available
+2025-07-24 03:54:11,633 [INFO] Using preferred backend: lmstudio
+2025-07-24 03:54:11,633 [INFO] LLM Router initialized with 1 backends
+2025-07-24 03:54:11,633 [INFO] Current backend: lmstudio
+2025-07-24 03:54:11,635 [ERROR] Error getting models: 'str' object has no attribute 'get'
+2025-07-24 03:54:11,635 [INFO] Backend lmstudio: \u2705 Available
+2025-07-24 03:54:11,635 [INFO] Benchmarking prompt 1/5
+2025-07-24 03:54:11,635 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:11,644 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:11,644 [INFO] Benchmarking prompt 2/5
+2025-07-24 03:54:11,644 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:11,654 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:11,654 [INFO] Benchmarking prompt 3/5
+2025-07-24 03:54:11,654 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:11,661 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:11,661 [INFO] Benchmarking prompt 4/5
+2025-07-24 03:54:11,661 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:11,670 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:11,670 [INFO] Benchmarking prompt 5/5
+2025-07-24 03:54:11,670 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:11,678 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe
+2025-07-24 03:54:11,678 [INFO] Benchmark completed for lmstudio
+2025-07-24 03:54:11,693 [INFO] Ensuring model 'mistral' is available...
+2025-07-24 03:54:11,704 [INFO] Opened LM Studio: C:\Users\Matteo\AppData\Local\Programs\LM Studio\LM Studio.exe

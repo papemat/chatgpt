@@ -1,0 +1,72 @@
+# TokIntel v2 Requirements with Integrations
+# Core dependencies
+requests>=2.25.0
+pyyaml>=6.0
+opencv-python>=4.5.0
+pillow>=8.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# LLM and AI
+openai>=1.0.0
+anthropic>=0.5.0
+google-generativeai>=0.3.0
+
+# Audio/Video Processing (Whisper)
+openai-whisper>=20231117
+ffmpeg-python>=0.2.0
+librosa>=0.9.0
+soundfile>=0.10.0
+
+# Local LLM (Ollama)
+requests>=2.25.0  # Already included above
+
+# HuggingFace Transformers
+transformers>=4.30.0
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+accelerate>=0.20.0
+datasets>=2.12.0
+tokenizers>=0.13.0
+
+# Additional NLP
+nltk>=3.8
+spacy>=3.5.0
+textblob>=0.17.0
+wordcloud>=1.9.0
+
+# Web and API
+streamlit>=1.25.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+websockets>=11.0
+
+# Data processing
+scikit-learn>=1.2.0
+scipy>=1.10.0
+plotly>=5.14.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+rich>=13.0.0
+click>=8.1.0
+
+# Development and testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.3.0
+
+# Optional: GPU support
+# cuda-python>=12.0.0  # Uncomment if using CUDA
+# cupy-cuda12x>=12.0.0  # Uncomment if using CUDA 12.x
+
+# Optional: Cloud services
+# google-cloud-speech>=2.21.0  # Uncomment for Google Speech-to-Text
+# azure-cognitiveservices-speech>=1.31.0  # Uncomment for Azure Speech
+# boto3>=1.26.0  # Uncomment for AWS services 

@@ -1,0 +1,7 @@
+modules:
+  config: "core/config.py"
+  prompts: "llm/prompts.py"
+  handler: "llm/handler.py"
+  ui: "ui/interface.py"
+  tests: "tests/"
+  agents: "agents/"

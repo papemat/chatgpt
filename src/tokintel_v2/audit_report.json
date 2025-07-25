@@ -1,0 +1,26 @@
+{
+  "timestamp": 1753324585.964122,
+  "warnings_found": [
+    "autoflake not available for import cleanup",
+    "Black not available for style formatting",
+    "MyPy not available for type checking",
+    "Flake8 not available for linting",
+    "Input statements detected (security concern) in main.py",
+    "Input statements detected (security concern) in main_fixed.py",
+    "Async function with await in tools\\debug_tools\\audit_script.py",
+    "Await outside async function in tools\\debug_tools\\audit_script.py",
+    "Async function with await in tools\\debug_tools\\config.py",
+    "Await outside async function in tools\\debug_tools\\config.py"
+  ],
+  "errors_found": [],
+  "fixes_applied": [],
+  "imports_removed": [],
+  "style_issues": [],
+  "performance_issues": [],
+  "security_issues": [
+    "Hardcoded API key detected in tests\\test_config.py",
+    "Environment file reference in tests\\test_config.py",
+    "Environment file reference in tools\\debug_tools\\audit_script.py",
+    "Environment file reference in tools\\debug_tools\\config.py"
+  ]
+}

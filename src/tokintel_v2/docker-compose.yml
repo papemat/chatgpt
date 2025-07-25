@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  tokintel-cli:
+    build: .
+    command: ["tokintel", "analyze", "sample.mp4"]
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on: []
+
+  tokintel-ui:
+    build: .
+    command: ["streamlit", "run", "ui/interface.py"]
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on: [] 

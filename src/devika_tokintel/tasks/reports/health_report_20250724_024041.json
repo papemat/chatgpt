@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-07-24T02:40:39.925869",
+  "system": {
+    "platform": "Windows",
+    "version": "10.0.26100",
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "cpu_count": 16,
+    "memory_total": "31.2 GB",
+    "memory_available": "19.7 GB",
+    "cpu_usage": 18.0,
+    "memory_usage": 37.2
+  },
+  "tokintel": {
+    "dir_agents": "MISSING",
+    "dir_core": "MISSING",
+    "dir_llm": "MISSING",
+    "dir_ui": "MISSING",
+    "dir_config": "MISSING",
+    "dir_output": "MISSING",
+    "dir_logs": "MISSING",
+    "file_config.yaml": "MISSING",
+    "file_main.py": "MISSING",
+    "file_requirements.txt": "MISSING",
+    "config_valid": "MISSING"
+  },
+  "dependencies": {
+    "requests": "OK",
+    "openai": "OK",
+    "streamlit": "OK"
+  },
+  "issues": [
+    "Missing directory: agents",
+    "Missing directory: core",
+    "Missing directory: llm",
+    "Missing directory: ui",
+    "Missing directory: config",
+    "Missing directory: output",
+    "Missing directory: logs",
+    "Missing file: config.yaml",
+    "Missing file: main.py",
+    "Missing file: requirements.txt",
+    "config.yaml not found"
+  ]
+}

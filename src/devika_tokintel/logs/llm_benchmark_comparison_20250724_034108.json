@@ -1,0 +1,248 @@
+{
+  "timestamp": "2025-07-24T03:41:08.181834",
+  "test_prompts": [
+    "What is artificial intelligence?",
+    "Explain machine learning in simple terms",
+    "How does a neural network work?",
+    "What is the difference between AI and ML?",
+    "Describe the future of technology"
+  ],
+  "router_status": {
+    "active_backend": "lmstudio",
+    "available_backends": [
+      "lmstudio",
+      "ollama"
+    ],
+    "backend_priority": [
+      "lmstudio",
+      "ollama"
+    ],
+    "backends": {
+      "lmstudio": {
+        "connected": true,
+        "base_url": "http://localhost:1234/v1/chat/completions",
+        "model": "mistral",
+        "timeout": 30,
+        "max_retries": 3,
+        "available_models": [
+          "nous-hermes-2-mistral-7b-dpo",
+          "text-embedding-nomic-embed-text-v1.5",
+          "mixtral-8x7b-instruct-v0.1@q4_0",
+          "mixtral-8x7b-instruct-v0.1@q4_k_m",
+          "mixtral-8x7b-instruct-v0.1@q5_k_m",
+          "hermes-3-llama-3.1-8b",
+          "mistralai/mistral-7b-instruct-v0.3",
+          "mistralai/magistral-small"
+        ],
+        "timestamp": "2025-07-24T03:40:33.375120"
+      },
+      "ollama": {
+        "server_running": false,
+        "base_url": "http://localhost:11434",
+        "default_model": "mistral",
+        "available_models": [],
+        "timeout": 30,
+        "max_retries": 3,
+        "temperature": 0.7,
+        "max_tokens": 500
+      }
+    },
+    "timestamp": "2025-07-24T03:40:33.372704"
+  },
+  "benchmark_results": {
+    "backends": {
+      "lmstudio": {
+        "total_prompts": 5,
+        "successful": 5,
+        "failed": 0,
+        "total_time": 21.431127548217773,
+        "average_time": 4.286225509643555,
+        "success_rate": 100.0,
+        "results": [
+          {
+            "text": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. This involves the development of algorithms and computer programs that can perform tasks such as problem-solving, decision making, pattern recognition, and natural language processing. AI technology aims to create intelligent machines that can work and react like humans, often exceeding their abilities in specific areas. The field encompasses a wide range of subfields, including machine learning, deep learning, neural networks, and cognitive computing.",
+            "model": "mistral",
+            "prompt": "What is artificial intelligence?",
+            "processing_time": 1.938208818435669,
+            "timestamp": "2025-07-24T03:40:39.359645",
+            "raw_response": {
+              "id": "chatcmpl-8v6psaqhy6luywvldxc9s",
+              "object": "chat.completion",
+              "created": 1753321237,
+              "model": "nous-hermes-2-mistral-7b-dpo",
+              "choices": [
+                {
+                  "index": 0,
+                  "logprobs": null,
+                  "finish_reason": "stop",
+                  "message": {
+                    "role": "assistant",
+                    "content": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. This involves the development of algorithms and computer programs that can perform tasks such as problem-solving, decision making, pattern recognition, and natural language processing. AI technology aims to create intelligent machines that can work and react like humans, often exceeding their abilities in specific areas. The field encompasses a wide range of subfields, including machine learning, deep learning, neural networks, and cognitive computing."
+                  }
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 15,
+                "completion_tokens": 107,
+                "total_tokens": 122
+              },
+              "stats": {},
+              "system_fingerprint": "nous-hermes-2-mistral-7b-dpo"
+            },
+            "status": "success"
+          },
+          {
+            "text": "Machine learning is a method of teaching computers to learn and improve from experience. It's like giving a computer the ability to analyze and make decisions based on data without explicitly being programmed for it. Instead, the computer learns from patterns and examples, making it capable of performing tasks that would be difficult or impossible for a human to do.",
+            "model": "mistral",
+            "prompt": "Explain machine learning in simple terms",
+            "processing_time": 1.1871840953826904,
+            "timestamp": "2025-07-24T03:40:40.547876",
+            "raw_response": {
+              "id": "chatcmpl-btmiahuxcaeeybq9gyiug",
+              "object": "chat.completion",
+              "created": 1753321239,
+              "model": "nous-hermes-2-mistral-7b-dpo",
+              "choices": [
+                {
+                  "index": 0,
+                  "logprobs": null,
+                  "finish_reason": "stop",
+                  "message": {
+                    "role": "assistant",
+                    "content": "Machine learning is a method of teaching computers to learn and improve from experience. It's like giving a computer the ability to analyze and make decisions based on data without explicitly being programmed for it. Instead, the computer learns from patterns and examples, making it capable of performing tasks that would be difficult or impossible for a human to do."
+                  }
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 17,
+                "completion_tokens": 69,
+                "total_tokens": 86
+              },
+              "stats": {},
+              "system_fingerprint": "nous-hermes-2-mistral-7b-dpo"
+            },
+            "status": "success"
+          },
+          {
+            "text": "A neural network is a type of machine learning model designed to simulate the way the human brain processes information. It consists of layers of interconnected nodes or \"neurons\" that are organized into input, hidden, and output layers. These networks are trained using large amounts of data, which allows them to learn patterns in the data and make predictions or decisions based on new inputs.\n\nHere's a simplified explanation of how a neural network works:\n\n1. Input Layer: The first layer of a neural network receives input data from the environment. This can be anything from images or text to numerical values or other forms of data. Each input is assigned a weight, which determines its significance in the overall processing of the network.\n\n2. Hidden Layers: Between the input and output layers, there are one or more hidden layers. These layers contain neurons that perform various mathematical operations on the input data based on their weights. The results of these calculations are then passed forward to the next layer of neurons.\n\n3. Output Layer: The final layer of the neural network is the output layer, which produces a result or prediction based on the processed input data. This can be a single value or a set of values, depending on the specific application.\n\n4. Training: To train a neural network, it must be exposed to large amounts of data so that it can learn to make accurate predictions or decisions. During this process, the weights assigned to each input are adjusted based on how well the network performs. This is typically done using an algorithm called backpropagation, which calculates the error between the predicted output and the actual output, and then adjusts the weights accordingly to minimize this error.\n\n5. Prediction: Once a neural network has been trained, it can be used to make predictions or decisions based on new inputs. This is done by passing the input data through the layers of neurons, which use their learned weights to produce an output that represents the network's best guess for the correct result.\n\nNeural networks have become increasingly popular in recent years due to their ability to learn and adapt to new data, making them useful for a wide range of applications, such as image recognition, natural language processing, speech recognition, and more.",
+            "model": "mistral",
+            "prompt": "How does a neural network work?",
+            "processing_time": 7.9490272998809814,
+            "timestamp": "2025-07-24T03:40:48.496903",
+            "raw_response": {
+              "id": "chatcmpl-jc7yfgqly1suvp9g75ldho",
+              "object": "chat.completion",
+              "created": 1753321240,
+              "model": "nous-hermes-2-mistral-7b-dpo",
+              "choices": [
+                {
+                  "index": 0,
+                  "logprobs": null,
+                  "finish_reason": "stop",
+                  "message": {
+                    "role": "assistant",
+                    "content": "A neural network is a type of machine learning model designed to simulate the way the human brain processes information. It consists of layers of interconnected nodes or \"neurons\" that are organized into input, hidden, and output layers. These networks are trained using large amounts of data, which allows them to learn patterns in the data and make predictions or decisions based on new inputs.\n\nHere's a simplified explanation of how a neural network works:\n\n1. Input Layer: The first layer of a neural network receives input data from the environment. This can be anything from images or text to numerical values or other forms of data. Each input is assigned a weight, which determines its significance in the overall processing of the network.\n\n2. Hidden Layers: Between the input and output layers, there are one or more hidden layers. These layers contain neurons that perform various mathematical operations on the input data based on their weights. The results of these calculations are then passed forward to the next layer of neurons.\n\n3. Output Layer: The final layer of the neural network is the output layer, which produces a result or prediction based on the processed input data. This can be a single value or a set of values, depending on the specific application.\n\n4. Training: To train a neural network, it must be exposed to large amounts of data so that it can learn to make accurate predictions or decisions. During this process, the weights assigned to each input are adjusted based on how well the network performs. This is typically done using an algorithm called backpropagation, which calculates the error between the predicted output and the actual output, and then adjusts the weights accordingly to minimize this error.\n\n5. Prediction: Once a neural network has been trained, it can be used to make predictions or decisions based on new inputs. This is done by passing the input data through the layers of neurons, which use their learned weights to produce an output that represents the network's best guess for the correct result.\n\nNeural networks have become increasingly popular in recent years due to their ability to learn and adapt to new data, making them useful for a wide range of applications, such as image recognition, natural language processing, speech recognition, and more."
+                  }
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 17,
+                "completion_tokens": 467,
+                "total_tokens": 484
+              },
+              "stats": {},
+              "system_fingerprint": "nous-hermes-2-mistral-7b-dpo"
+            },
+            "status": "success"
+          },
+          {
+            "text": "AI (Artificial Intelligence) and ML (Machine Learning) are often used interchangeably, but they refer to different concepts. AI refers to the ability of machines to mimic human intelligence and perform tasks that would normally require human intervention. It involves building systems that can learn, reason, perceive, and understand natural language. \n\nOn the other hand, ML is a subset of AI that focuses on teaching machines to learn from data. It involves feeding large amounts of data into an algorithm so that it can identify patterns and make predictions without being explicitly programmed. In other words, ML algorithms are designed to improve their performance over time by learning from experience.\n\nIn summary, AI is a broader concept that encompasses various techniques for building intelligent machines, while ML is one of those techniques that focuses on teaching machines to learn from data.",
+            "model": "mistral",
+            "prompt": "What is the difference between AI and ML?",
+            "processing_time": 2.9194743633270264,
+            "timestamp": "2025-07-24T03:40:51.416378",
+            "raw_response": {
+              "id": "chatcmpl-o9npnf501xj8nivtlyfqw",
+              "object": "chat.completion",
+              "created": 1753321248,
+              "model": "nous-hermes-2-mistral-7b-dpo",
+              "choices": [
+                {
+                  "index": 0,
+                  "logprobs": null,
+                  "finish_reason": "stop",
+                  "message": {
+                    "role": "assistant",
+                    "content": "AI (Artificial Intelligence) and ML (Machine Learning) are often used interchangeably, but they refer to different concepts. AI refers to the ability of machines to mimic human intelligence and perform tasks that would normally require human intervention. It involves building systems that can learn, reason, perceive, and understand natural language. \n\nOn the other hand, ML is a subset of AI that focuses on teaching machines to learn from data. It involves feeding large amounts of data into an algorithm so that it can identify patterns and make predictions without being explicitly programmed. In other words, ML algorithms are designed to improve their performance over time by learning from experience.\n\nIn summary, AI is a broader concept that encompasses various techniques for building intelligent machines, while ML is one of those techniques that focuses on teaching machines to learn from data."
+                  }
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 19,
+                "completion_tokens": 172,
+                "total_tokens": 191
+              },
+              "stats": {},
+              "system_fingerprint": "nous-hermes-2-mistral-7b-dpo"
+            },
+            "status": "success"
+          },
+          {
+            "text": "The future of technology is a fascinating and rapidly evolving landscape. It's hard to predict exactly what will happen, but it's clear that advancements in artificial intelligence, robotics, and other fields are set to transform our lives in profound ways. Here are some possible scenarios:\n\n1. AI and Robotics: We can expect continued advances in artificial intelligence (AI) and robotics, leading to machines that are increasingly capable of performing tasks once thought to be the exclusive domain of humans. This will lead to greater efficiencies and productivity in many industries, but also raise questions about the future of work and the nature of human employment.\n\n2. Internet of Things: The Internet of Things (IoT) is already transforming our homes, offices, and cities through connected devices that can communicate with one another and provide new levels of convenience and efficiency. This trend will continue, with an increasing number of devices becoming part of the IoT ecosystem.\n\n3. Virtual Reality and Augmented Reality: We're also likely to see continued growth in the areas of virtual reality (VR) and augmented reality (AR). These technologies have already begun to transform gaming, but they also hold tremendous potential for education, training, and other applications.\n\n4. Quantum Computing: Another area of technological advancement is quantum computing, which has the potential to solve problems that are currently intractable for classical computers. This technology is still in its early stages, but it's already showing promise in areas like cryptography, drug discovery, and materials science.\n\n5. Bioengineering and Genetics: Advances in bioengineering and genetics are also set to transform medicine, agriculture, and many other fields. We can expect continued progress in the development of new therapies, as well as new technologies for gene editing and synthetic biology.\n\nOf course, these are just a few examples, and there's no shortage of exciting developments on the horizon. The future of technology is likely to be characterized by rapid change, continual innovation, and new opportunities for collaboration and creativity.",
+            "model": "mistral",
+            "prompt": "Describe the future of technology",
+            "processing_time": 7.437232971191406,
+            "timestamp": "2025-07-24T03:40:58.853610",
+            "raw_response": {
+              "id": "chatcmpl-tr1m88hhadg4a2qf3msgs",
+              "object": "chat.completion",
+              "created": 1753321251,
+              "model": "nous-hermes-2-mistral-7b-dpo",
+              "choices": [
+                {
+                  "index": 0,
+                  "logprobs": null,
+                  "finish_reason": "stop",
+                  "message": {
+                    "role": "assistant",
+                    "content": "The future of technology is a fascinating and rapidly evolving landscape. It's hard to predict exactly what will happen, but it's clear that advancements in artificial intelligence, robotics, and other fields are set to transform our lives in profound ways. Here are some possible scenarios:\n\n1. AI and Robotics: We can expect continued advances in artificial intelligence (AI) and robotics, leading to machines that are increasingly capable of performing tasks once thought to be the exclusive domain of humans. This will lead to greater efficiencies and productivity in many industries, but also raise questions about the future of work and the nature of human employment.\n\n2. Internet of Things: The Internet of Things (IoT) is already transforming our homes, offices, and cities through connected devices that can communicate with one another and provide new levels of convenience and efficiency. This trend will continue, with an increasing number of devices becoming part of the IoT ecosystem.\n\n3. Virtual Reality and Augmented Reality: We're also likely to see continued growth in the areas of virtual reality (VR) and augmented reality (AR). These technologies have already begun to transform gaming, but they also hold tremendous potential for education, training, and other applications.\n\n4. Quantum Computing: Another area of technological advancement is quantum computing, which has the potential to solve problems that are currently intractable for classical computers. This technology is still in its early stages, but it's already showing promise in areas like cryptography, drug discovery, and materials science.\n\n5. Bioengineering and Genetics: Advances in bioengineering and genetics are also set to transform medicine, agriculture, and many other fields. We can expect continued progress in the development of new therapies, as well as new technologies for gene editing and synthetic biology.\n\nOf course, these are just a few examples, and there's no shortage of exciting developments on the horizon. The future of technology is likely to be characterized by rapid change, continual innovation, and new opportunities for collaboration and creativity."
+                  }
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 15,
+                "completion_tokens": 436,
+                "total_tokens": 451
+              },
+              "stats": {},
+              "system_fingerprint": "nous-hermes-2-mistral-7b-dpo"
+            },
+            "status": "success"
+          }
+        ],
+        "timestamp": "2025-07-24T03:40:58.853610"
+      },
+      "ollama": {
+        "error": "'OllamaClient' object has no attribute 'benchmark'",
+        "status": "failed"
+      }
+    },
+    "comparison": {
+      "fastest_backend": "lmstudio",
+      "fastest_time": 4.286225509643555,
+      "most_reliable_backend": "lmstudio",
+      "most_reliable_rate": 100.0,
+      "working_backends": [
+        "lmstudio"
+      ]
+    },
+    "timestamp": "2025-07-24T03:40:58.853610"
+  },
+  "summary": {
+    "total_backends": 2,
+    "working_backends": 1,
+    "active_backend": "lmstudio",
+    "fastest_backend": "lmstudio",
+    "most_reliable_backend": "lmstudio"
+  }
+}

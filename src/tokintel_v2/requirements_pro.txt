@@ -1,0 +1,48 @@
+# TokIntel v2.1 Pro+ Requirements
+# Dipendenze aggiuntive per le funzionalità avanzate
+
+# Database PostgreSQL
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+alembic>=1.12.0
+
+# PDF Generation
+fpdf>=2.7.0
+reportlab>=4.0.0
+weasyprint>=60.0
+
+# Chat e AI Agents
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.1.0
+
+# Analytics Avanzati
+scikit-learn>=1.3.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# API e Web Services
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Monitoring e Logging
+prometheus-client>=0.17.0
+structlog>=23.1.0
+
+# Cache e Performance
+redis>=5.0.0
+celery>=5.3.0
+
+# Testing Avanzato
+pytest-mock>=3.11.0
+pytest-benchmark>=4.0.0
+factory-boy>=3.3.0
+
+# Development Tools
+pre-commit>=3.4.0
+bandit>=1.7.0
+safety>=2.3.0 

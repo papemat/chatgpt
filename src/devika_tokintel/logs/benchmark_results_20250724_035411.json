@@ -1,0 +1,212 @@
+{
+  "timestamp": "2025-07-24T03:54:11.635690",
+  "total_prompts": 5,
+  "backends": {
+    "lmstudio": {
+      "model": "mistral",
+      "total_prompts": 5,
+      "successful_requests": 0,
+      "failed_requests": 5,
+      "total_time": 0,
+      "average_time": 0,
+      "responses": [
+        {
+          "prompt": "Explain quantum computing in simple terms.",
+          "response": {
+            "success": false,
+            "error": "Model not available",
+            "model_status": {
+              "success": false,
+              "model_name": "mistral",
+              "actions_taken": [
+                "Provided download instructions",
+                "Opened LM Studio for manual model loading"
+              ],
+              "errors": [],
+              "instructions": [
+                "📥 Download Mistral 7B Instruct v0.2:",
+                "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+                "📋 Steps:",
+                "1. Click the link above",
+                "2. Download the .gguf file (choose appropriate size)",
+                "3. Place it in LM Studio models directory",
+                "4. Open LM Studio and load the model",
+                "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+                "💡 Tip: You can also drag .gguf files directly into LM Studio"
+              ]
+            },
+            "instructions": [
+              "📥 Download Mistral 7B Instruct v0.2:",
+              "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+              "📋 Steps:",
+              "1. Click the link above",
+              "2. Download the .gguf file (choose appropriate size)",
+              "3. Place it in LM Studio models directory",
+              "4. Open LM Studio and load the model",
+              "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+              "💡 Tip: You can also drag .gguf files directly into LM Studio"
+            ]
+          },
+          "elapsed_time": 0.008695363998413086
+        },
+        {
+          "prompt": "Write a short poem about artificial intelligence.",
+          "response": {
+            "success": false,
+            "error": "Model not available",
+            "model_status": {
+              "success": false,
+              "model_name": "mistral",
+              "actions_taken": [
+                "Provided download instructions",
+                "Opened LM Studio for manual model loading"
+              ],
+              "errors": [],
+              "instructions": [
+                "📥 Download Mistral 7B Instruct v0.2:",
+                "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+                "📋 Steps:",
+                "1. Click the link above",
+                "2. Download the .gguf file (choose appropriate size)",
+                "3. Place it in LM Studio models directory",
+                "4. Open LM Studio and load the model",
+                "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+                "💡 Tip: You can also drag .gguf files directly into LM Studio"
+              ]
+            },
+            "instructions": [
+              "📥 Download Mistral 7B Instruct v0.2:",
+              "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+              "📋 Steps:",
+              "1. Click the link above",
+              "2. Download the .gguf file (choose appropriate size)",
+              "3. Place it in LM Studio models directory",
+              "4. Open LM Studio and load the model",
+              "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+              "💡 Tip: You can also drag .gguf files directly into LM Studio"
+            ]
+          },
+          "elapsed_time": 0.009974002838134766
+        },
+        {
+          "prompt": "What are the benefits of renewable energy?",
+          "response": {
+            "success": false,
+            "error": "Model not available",
+            "model_status": {
+              "success": false,
+              "model_name": "mistral",
+              "actions_taken": [
+                "Provided download instructions",
+                "Opened LM Studio for manual model loading"
+              ],
+              "errors": [],
+              "instructions": [
+                "📥 Download Mistral 7B Instruct v0.2:",
+                "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+                "📋 Steps:",
+                "1. Click the link above",
+                "2. Download the .gguf file (choose appropriate size)",
+                "3. Place it in LM Studio models directory",
+                "4. Open LM Studio and load the model",
+                "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+                "💡 Tip: You can also drag .gguf files directly into LM Studio"
+              ]
+            },
+            "instructions": [
+              "📥 Download Mistral 7B Instruct v0.2:",
+              "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+              "📋 Steps:",
+              "1. Click the link above",
+              "2. Download the .gguf file (choose appropriate size)",
+              "3. Place it in LM Studio models directory",
+              "4. Open LM Studio and load the model",
+              "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+              "💡 Tip: You can also drag .gguf files directly into LM Studio"
+            ]
+          },
+          "elapsed_time": 0.007159233093261719
+        },
+        {
+          "prompt": "How does machine learning work?",
+          "response": {
+            "success": false,
+            "error": "Model not available",
+            "model_status": {
+              "success": false,
+              "model_name": "mistral",
+              "actions_taken": [
+                "Provided download instructions",
+                "Opened LM Studio for manual model loading"
+              ],
+              "errors": [],
+              "instructions": [
+                "📥 Download Mistral 7B Instruct v0.2:",
+                "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+                "📋 Steps:",
+                "1. Click the link above",
+                "2. Download the .gguf file (choose appropriate size)",
+                "3. Place it in LM Studio models directory",
+                "4. Open LM Studio and load the model",
+                "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+                "💡 Tip: You can also drag .gguf files directly into LM Studio"
+              ]
+            },
+            "instructions": [
+              "📥 Download Mistral 7B Instruct v0.2:",
+              "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+              "📋 Steps:",
+              "1. Click the link above",
+              "2. Download the .gguf file (choose appropriate size)",
+              "3. Place it in LM Studio models directory",
+              "4. Open LM Studio and load the model",
+              "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+              "💡 Tip: You can also drag .gguf files directly into LM Studio"
+            ]
+          },
+          "elapsed_time": 0.008629083633422852
+        },
+        {
+          "prompt": "Describe the future of technology.",
+          "response": {
+            "success": false,
+            "error": "Model not available",
+            "model_status": {
+              "success": false,
+              "model_name": "mistral",
+              "actions_taken": [
+                "Provided download instructions",
+                "Opened LM Studio for manual model loading"
+              ],
+              "errors": [],
+              "instructions": [
+                "📥 Download Mistral 7B Instruct v0.2:",
+                "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+                "📋 Steps:",
+                "1. Click the link above",
+                "2. Download the .gguf file (choose appropriate size)",
+                "3. Place it in LM Studio models directory",
+                "4. Open LM Studio and load the model",
+                "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+                "💡 Tip: You can also drag .gguf files directly into LM Studio"
+              ]
+            },
+            "instructions": [
+              "📥 Download Mistral 7B Instruct v0.2:",
+              "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+              "📋 Steps:",
+              "1. Click the link above",
+              "2. Download the .gguf file (choose appropriate size)",
+              "3. Place it in LM Studio models directory",
+              "4. Open LM Studio and load the model",
+              "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+              "💡 Tip: You can also drag .gguf files directly into LM Studio"
+            ]
+          },
+          "elapsed_time": 0.00856471061706543
+        }
+      ]
+    }
+  },
+  "comparison": {}
+}

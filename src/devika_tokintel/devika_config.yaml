@@ -1,0 +1,68 @@
+# Devika Configuration
+devika:
+  version: "1.0"
+  name: "TokIntel Assistant"
+  
+# Paths
+paths:
+  tokintel: "../TokIntel_v2"
+  logs: "logs"
+  exports: "exports"
+  reports: "reports"
+  backups: "backups"
+
+# Task Settings
+tasks:
+  system_health:
+    enabled: true
+    auto_run: false
+    timeout: 60
+    
+  test_config:
+    enabled: true
+    auto_run: false
+    timeout: 30
+    
+  test_agents:
+    enabled: true
+    auto_run: false
+    timeout: 45
+    
+  benchmark_llm:
+    enabled: true
+    auto_run: false
+    timeout: 120
+    
+  export_csv:
+    enabled: true
+    auto_run: false
+    timeout: 60
+    
+  auto_maintenance:
+    enabled: true
+    auto_run: true
+    schedule: "weekly"
+    timeout: 90
+
+# Maintenance Settings
+maintenance:
+  log_retention_days: 7
+  report_retention_days: 30
+  temp_file_retention_days: 1
+  auto_backup: true
+  backup_retention_count: 5
+
+# UI Settings
+ui:
+  theme: "light"
+  auto_refresh: true
+  refresh_interval: 30
+  max_history: 50
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s [%(levelname)s] %(message)s"
+  file: "logs/devika.log"
+  max_size: "10MB"
+  backup_count: 5 

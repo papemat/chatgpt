@@ -1,0 +1,10 @@
+# Nuovo File
+
+Questo è un nuovo file di testo creato su richiesta.
+
+## Contenuto
+
+Aggiungi qui il contenuto desiderato.
+
+---
+Creato il: $(Get-Date -Format "dd/MM/yyyy HH:mm") 

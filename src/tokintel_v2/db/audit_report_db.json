@@ -1,0 +1,34 @@
+{
+  "module": "db",
+  "files": [
+    {
+      "filename": "db/database.py",
+      "structure": "Gestione completa del database TokIntel: utenti, analisi video, insight agenti, eventi analytics, sessioni TikTok, video salvati. Espone DatabaseManager con metodi CRUD e utility.",
+      "typing": "parziale (molti parametri tipizzati, ma non tutti i metodi pubblici)",
+      "docstring": "presenti per classi e molte funzioni, ma alcune utility sintetiche o mancanti",
+      "imports": "ordinati e tutti usati",
+      "components": "SQLAlchemy ORM, logging strutturato, context manager, relazioni tra modelli",
+      "problems": [
+        "DatabaseManager troppo grande (responsabilità multiple)",
+        "alcuni metodi pubblici senza typing esplicito",
+        "alcuni try/except troppo generici",
+        "docstring sintetiche o mancanti in alcune utility",
+        "pochi test associati (da verificare in tests/)"
+      ],
+      "suggestions": [
+        "suddividere DatabaseManager in più classi (UserManager, VideoManager, ecc.)",
+        "aggiungere typing esplicito a tutti i metodi pubblici",
+        "rendere più granulari i blocchi try/except e loggare stacktrace",
+        "arricchire le docstring per tutte le funzioni pubbliche",
+        "aggiungere test unitari per i metodi principali"
+      ],
+      "status": "🛠️ refactor utile"
+    }
+  ],
+  "global_suggestions": [
+    "Modularizzare la logica DB in più manager separati",
+    "Uniformare typing e docstring su tutti i metodi",
+    "Aggiungere test unitari e di integrazione per tutte le operazioni critiche",
+    "Gestire errori in modo più specifico e loggare dettagli"
+  ]
+} 

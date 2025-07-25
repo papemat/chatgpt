@@ -1,0 +1,38 @@
+{
+  "total_prompts": 3,
+  "successful": 0,
+  "failed": 3,
+  "total_time": 0,
+  "average_time": 0,
+  "success_rate": 0.0,
+  "results": [
+    {
+      "text": "Error: HTTP 404",
+      "model": "mistral",
+      "prompt": "What is Python?",
+      "processing_time": 2.00521183013916,
+      "timestamp": "2025-07-24T03:40:08.696835",
+      "status": "error",
+      "error": "HTTP 404: {\n    \"error\": {\n        \"message\": \"No models loaded. Please load a model in the developer page or use the `lms load` command.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": \"model_not_found\"\n    }\n}"
+    },
+    {
+      "text": "Error: HTTP 404",
+      "model": "mistral",
+      "prompt": "Explain machine learning",
+      "processing_time": 2.005873918533325,
+      "timestamp": "2025-07-24T03:40:10.702709",
+      "status": "error",
+      "error": "HTTP 404: {\n    \"error\": {\n        \"message\": \"No models loaded. Please load a model in the developer page or use the `lms load` command.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": \"model_not_found\"\n    }\n}"
+    },
+    {
+      "text": "Error: HTTP 404",
+      "model": "mistral",
+      "prompt": "How does a neural network work?",
+      "processing_time": 2.0047693252563477,
+      "timestamp": "2025-07-24T03:40:12.707478",
+      "status": "error",
+      "error": "HTTP 404: {\n    \"error\": {\n        \"message\": \"No models loaded. Please load a model in the developer page or use the `lms load` command.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": \"model_not_found\"\n    }\n}"
+    }
+  ],
+  "timestamp": "2025-07-24T03:40:12.707478"
+}

@@ -1,0 +1,52 @@
+{
+  "module": "analytics",
+  "files": [
+    {
+      "filename": "analytics/trend_analyzer.py",
+      "structure": "Analizzatore di trend personali (parole chiave, emozioni, timeline, insight, temi contenuto). Classe principale TrendAnalyzer.",
+      "typing": "presente in quasi tutte le funzioni, ma non sempre nei ritorni",
+      "docstring": "presenti e chiare per classi e funzioni principali",
+      "imports": "ordinati e usati",
+      "components": "TrendAnalyzer, funzioni di aggregazione, logging strutturato",
+      "problems": [
+        "alcuni try/except generici",
+        "funzioni lunghe",
+        "logica aggregazione migliorabile"
+      ],
+      "suggestions": [
+        "modularizzare funzioni di aggregazione",
+        "typing esplicito ovunque",
+        "logging più dettagliato negli errori",
+        "test edge case"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "analytics/dashboard.py",
+      "structure": "Utility per salvataggio e query di statistiche analitiche su SQLite (top video, trend sentiment, wordcloud).",
+      "typing": "assente",
+      "docstring": "presenti ma sintetiche",
+      "imports": "ordinati e usati",
+      "components": "funzioni di accesso DB, nessun logging",
+      "problems": [
+        "nessun typing",
+        "nessun logging",
+        "funzioni senza gestione errori"
+      ],
+      "suggestions": [
+        "aggiungere typing e docstring dettagliate",
+        "logging per errori",
+        "modularizzare accesso DB",
+        "test edge case"
+      ],
+      "status": "🛠️ refactor utile"
+    }
+  ],
+  "global_suggestions": [
+    "Uniformare typing e docstring ovunque",
+    "Logging dettagliato negli errori",
+    "Modularizzare funzioni lunghe",
+    "Gestire errori in modo robusto (soprattutto in dashboard.py)",
+    "Aggiungere test unitari/integrati"
+  ]
+} 

@@ -1,0 +1,20 @@
+{
+  "setup_timestamp": "2025-07-24T04:01:20.643943",
+  "system_info": {
+    "os": "Windows",
+    "version": "10",
+    "architecture": "AMD64",
+    "python_version": "3.11.9"
+  },
+  "project_paths": {
+    "devika_root": "C:\\Users\\Matteo\\Desktop\\devika_tokintel",
+    "tokintel_path": "C:\\Users\\Matteo\\Desktop\\TokIntel_v2"
+  },
+  "setup_status": "completed",
+  "next_steps": [
+    "Run 'python devika.py test_model_management' to check model status",
+    "Run 'python devika.py system_health' for full system check",
+    "Run 'python devika.py benchmark_llm' to test LLM performance",
+    "Use 'launch.bat' for quick startup on Windows"
+  ]
+}

@@ -1,0 +1,56 @@
+# Core dependencies
+opencv-python>=4.8.0
+streamlit>=1.28.0
+pydantic>=2.0.0
+pyyaml>=6.0
+requests>=2.31.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# AI/ML dependencies
+openai>=1.0.0
+whisper>=1.0.0
+transformers>=4.30.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# UI and visualization
+plotly>=5.15.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Image processing
+Pillow>=10.0.0
+easyocr>=1.7.0
+
+# Async support
+aiofiles>=23.0.0
+asyncio-mqtt>=0.11.0
+apscheduler>=3.10.0
+
+# TikTok integration
+playwright>=1.40.0
+cryptography>=41.0.0
+aiohttp>=3.8.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Optional: for local LLM support
+# ollama>=0.1.0  # Uncomment if using Ollama
+# lmstudio>=0.1.0  # Uncomment if using LM Studio 
+
+# Lingua e Sentiment
+langdetect
+textblob 

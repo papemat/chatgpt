@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  tokintel-api:
+    build: .
+    container_name: tokintel-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./TokIntel_v2_workspace/src/api/downloads:/app/src/api/downloads
+    restart: unless-stopped 

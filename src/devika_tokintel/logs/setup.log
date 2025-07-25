@@ -1,0 +1,80 @@
+[2025-07-24 04:00:47] 🚀 Starting Devika TokIntel setup...
+[2025-07-24 04:00:47] 🔍 Checking Python version...
+[2025-07-24 04:00:47] ✅ Python 3.11.9 - Compatible
+[2025-07-24 04:00:47] 💻 System Information:
+[2025-07-24 04:00:47]    OS: Windows 10
+[2025-07-24 04:00:47]    Architecture: AMD64
+[2025-07-24 04:00:47]    Python: 3.11.9
+[2025-07-24 04:00:47]    Working Directory: C:\Users\Matteo\Desktop\devika_tokintel
+[2025-07-24 04:00:47] 📁 Checking TokIntel_v2 structure...
+[2025-07-24 04:00:47] ✅ TokIntel_v2 structure verified
+[2025-07-24 04:00:47] 📁 Creating necessary directories...
+[2025-07-24 04:00:47]    ✅ Created: logs/
+[2025-07-24 04:00:47]    ✅ Created: exports/
+[2025-07-24 04:00:47]    ✅ Created: reports/
+[2025-07-24 04:00:47]    ✅ Created: backups/
+[2025-07-24 04:00:47]    ✅ Created: temp/
+[2025-07-24 04:00:47] 📦 Installing Python dependencies...
+[2025-07-24 04:00:47] 📋 Found 17 dependencies to install
+[2025-07-24 04:00:47]    Installing: requests>=2.28.0
+[2025-07-24 04:00:47]    ✅ requests>=2.28.0 installed successfully
+[2025-07-24 04:00:47]    Installing: pyyaml>=6.0
+[2025-07-24 04:00:48]    ✅ pyyaml>=6.0 installed successfully
+[2025-07-24 04:00:48]    Installing: psutil>=5.9.0
+[2025-07-24 04:00:49]    ✅ psutil>=5.9.0 installed successfully
+[2025-07-24 04:00:49]    Installing: transformers>=4.30.0
+[2025-07-24 04:00:50]    ✅ transformers>=4.30.0 installed successfully
+[2025-07-24 04:00:50]    Installing: torch>=2.0.0
+[2025-07-24 04:00:50]    ✅ torch>=2.0.0 installed successfully
+[2025-07-24 04:00:50]    Installing: torchaudio>=2.0.0
+[2025-07-24 04:00:52]    ✅ torchaudio>=2.0.0 installed successfully
+[2025-07-24 04:00:52]    Installing: openai-whisper>=20231117
+[2025-07-24 04:00:53]    ✅ openai-whisper>=20231117 installed successfully
+[2025-07-24 04:00:53]    Installing: sentencepiece>=0.1.99
+[2025-07-24 04:00:54]    ✅ sentencepiece>=0.1.99 installed successfully
+[2025-07-24 04:00:54]    Installing: protobuf>=3.20.0
+[2025-07-24 04:00:55]    ✅ protobuf>=3.20.0 installed successfully
+[2025-07-24 04:00:55]    Installing: streamlit>=1.28.0
+[2025-07-24 04:00:55]    ✅ streamlit>=1.28.0 installed successfully
+[2025-07-24 04:00:55]    Installing: pandas>=1.5.0
+[2025-07-24 04:00:56]    ✅ pandas>=1.5.0 installed successfully
+[2025-07-24 04:00:56]    Installing: numpy>=1.24.0
+[2025-07-24 04:00:57]    ✅ numpy>=1.24.0 installed successfully
+[2025-07-24 04:00:57]    Installing: librosa>=0.10.0
+[2025-07-24 04:01:09]    ✅ librosa>=0.10.0 installed successfully
+[2025-07-24 04:01:09]    Installing: soundfile>=0.12.0
+[2025-07-24 04:01:10]    ✅ soundfile>=0.12.0 installed successfully
+[2025-07-24 04:01:10]    Installing: tqdm>=4.64.0
+[2025-07-24 04:01:11]    ✅ tqdm>=4.64.0 installed successfully
+[2025-07-24 04:01:11]    Installing: colorama>=0.4.6
+[2025-07-24 04:01:11]    ✅ colorama>=0.4.6 installed successfully
+[2025-07-24 04:01:11]    Installing: rich>=13.0.0
+[2025-07-24 04:01:14]    ✅ rich>=13.0.0 installed successfully
+[2025-07-24 04:01:14] ✅ Dependencies installation completed
+[2025-07-24 04:01:14] ⚙️  Setting up configuration files...
+[2025-07-24 04:01:14] 🤖 Checking LLM backends availability...
+[2025-07-24 04:01:16] ✅ LM Studio server is running
+[2025-07-24 04:01:20] ⚠️  Ollama server not accessible
+[2025-07-24 04:01:20] ✅ Available backends: lmstudio
+[2025-07-24 04:01:20] 🧪 Running initial system tests...
+[2025-07-24 04:01:20]    ✅ LLM Router import successful
+[2025-07-24 04:01:20]    ✅ LM Studio Client import successful
+[2025-07-24 04:01:20]    ✅ Ollama Client import successful
+[2025-07-24 04:01:20]    ✅ Task runner loaded with 14 tasks
+[2025-07-24 04:01:20] ✅ Initial tests completed
+[2025-07-24 04:01:20] 📊 Generating setup report...
+[2025-07-24 04:01:20] ✅ Setup report generated
+[2025-07-24 04:01:20] 
+[2025-07-24 04:01:20] 🎉 Setup completed successfully!
+[2025-07-24 04:01:20] ============================================================
+[2025-07-24 04:01:20] 📋 Next Steps:
+[2025-07-24 04:01:20]    • Run 'python devika.py test_model_management' to check model status
+[2025-07-24 04:01:20]    • Run 'python devika.py system_health' for full system check
+[2025-07-24 04:01:20]    • Run 'python devika.py benchmark_llm' to test LLM performance
+[2025-07-24 04:01:20]    • Use 'launch.bat' for quick startup on Windows
+[2025-07-24 04:01:20] 
+[2025-07-24 04:01:20] 💡 Quick Start:
+[2025-07-24 04:01:20]    python devika.py test_model_management
+[2025-07-24 04:01:20]    python devika.py system_health
+[2025-07-24 04:01:20] 
+[2025-07-24 04:01:20] 📁 Logs and reports saved in 'logs/' directory

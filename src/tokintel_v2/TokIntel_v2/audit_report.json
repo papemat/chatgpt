@@ -1,0 +1,14 @@
+{
+  "timestamp": 1753324371.9274302,
+  "warnings_found": [
+    "Black not available for style formatting",
+    "MyPy not available for type checking",
+    "Flake8 not available for linting"
+  ],
+  "errors_found": [],
+  "fixes_applied": [],
+  "imports_removed": [],
+  "style_issues": [],
+  "performance_issues": [],
+  "security_issues": []
+}

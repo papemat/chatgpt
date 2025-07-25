@@ -1,0 +1,70 @@
+{
+  "task": "sentiment",
+  "test_texts": 3,
+  "successful_tests": 3,
+  "total_time": 0.054251909255981445,
+  "average_time": 0.018083969751993816,
+  "results": [
+    {
+      "text": "Artificial intelligence is transforming the world. Machine learning algorithms are becoming more sophisticated and capable of solving complex problems. Companies are investing heavily in AI research and development.",
+      "result": {
+        "task": "sentiment",
+        "text": "Artificial intelligence is transforming the world. Machine learning algorithms are becoming more sophisticated and capable of solving complex problems. Companies are investing heavily in AI research and development.",
+        "predictions": [
+          {
+            "label": "positive",
+            "score": 0.934904158115387
+          }
+        ],
+        "top_prediction": {
+          "label": "positive",
+          "score": 0.934904158115387
+        },
+        "processing_time": 0.02675032615661621,
+        "timestamp": "2025-07-24T03:13:23.774651"
+      },
+      "processing_time": 0.02675032615661621
+    },
+    {
+      "text": "I love this new product! It's amazing and works perfectly. The customer service was also excellent.",
+      "result": {
+        "task": "sentiment",
+        "text": "I love this new product! It's amazing and works perfectly. The customer service was also excellent.",
+        "predictions": [
+          {
+            "label": "positive",
+            "score": 0.9907516241073608
+          }
+        ],
+        "top_prediction": {
+          "label": "positive",
+          "score": 0.9907516241073608
+        },
+        "processing_time": 0.011451005935668945,
+        "timestamp": "2025-07-24T03:13:23.786103"
+      },
+      "processing_time": 0.011451005935668945
+    },
+    {
+      "text": "The weather is terrible today. I'm feeling really disappointed about the rain.",
+      "result": {
+        "task": "sentiment",
+        "text": "The weather is terrible today. I'm feeling really disappointed about the rain.",
+        "predictions": [
+          {
+            "label": "negative",
+            "score": 0.9547043442726135
+          }
+        ],
+        "top_prediction": {
+          "label": "negative",
+          "score": 0.9547043442726135
+        },
+        "processing_time": 0.01605057716369629,
+        "timestamp": "2025-07-24T03:13:23.810425"
+      },
+      "processing_time": 0.01605057716369629
+    }
+  ],
+  "timestamp": "2025-07-24T03:13:23.810425"
+}

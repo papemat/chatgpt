@@ -1,0 +1,448 @@
+{
+  "create_release_zip.py": {
+    "logging": [
+      "Replaced print statements with logger calls"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "final_release_prep.py": {
+    "logging": [
+      "Replaced print statements with logger calls"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "main.py": {
+    "asyncio": [
+      "Fixed deprecated asyncio.get_event_loop().time()"
+    ],
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "main_fixed.py": {
+    "asyncio": [
+      "Fixed deprecated asyncio.get_event_loop().time()"
+    ],
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "agent\\scraper.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "agent\\synthesis.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "agent\\__init__.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "agents\\pipeline.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "agents\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "audio\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "core\\config.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "core\\exceptions.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "core\\logger.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "core\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "huggingface\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "llm\\handler.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "llm\\prompts.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\agent\\scraper.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\agent\\synthesis.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\agent\\__init__.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\core\\config.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\core\\exceptions.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\core\\logger.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\core\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\llm\\handler.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\llm\\prompts.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tests\\test_config.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tests\\test_logger.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tests\\test_prompts.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tests\\test_scoring.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tools\\debug_tools\\audit_script.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tools\\debug_tools\\config.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tools\\debug_tools\\docstring_fixes.py": {
+    "logging": [
+      "Replaced print statements with logger calls"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tools\\debug_tools\\fixes.py": {
+    "asyncio": [
+      "Fixed deprecated asyncio.get_event_loop().time()"
+    ],
+    "logging": [
+      "Replaced print statements with logger calls"
+    ]
+  },
+  "release\\TokIntel_v2.1\\tools\\debug_tools\\post_audit_validator.py": {
+    "logging": [
+      "Replaced print statements with logger calls"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\ui\\interface.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\ui\\streamlit_launcher.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "release\\TokIntel_v2.1\\ui\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tests\\test_config.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tests\\test_logger.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tests\\test_prompts.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tests\\test_scoring.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tools\\debug_tools\\audit_script.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tools\\debug_tools\\config.py": {
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tools\\debug_tools\\docstring_fixes.py": {
+    "logging": [
+      "Replaced print statements with logger calls"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "tools\\debug_tools\\fixes.py": {
+    "asyncio": [
+      "Fixed deprecated asyncio.get_event_loop().time()"
+    ],
+    "logging": [
+      "Replaced print statements with logger calls"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ]
+  },
+  "tools\\debug_tools\\post_audit_validator.py": {
+    "logging": [
+      "Replaced print statements with logger calls"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ]
+  },
+  "ui\\interface.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "ui\\streamlit_launcher.py": {
+    "logging": [
+      "Added logging import"
+    ],
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "ui\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "utils\\file_utils.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  },
+  "utils\\__init__.py": {
+    "imports": [
+      "Removed unused imports"
+    ],
+    "typing": [
+      "Added typing imports"
+    ]
+  }
+}

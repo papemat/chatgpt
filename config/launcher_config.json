@@ -1,0 +1,27 @@
+{
+  "streamlit_app": {
+    "script_path": "tokintel/ui/streamlit_app.py",
+    "port": 8502,
+    "headless": true,
+    "enable_cors": false,
+    "enable_xsrf_protection": false,
+    "server_address": "localhost"
+  },
+  "browser": {
+    "auto_open": true,
+    "url": "http://localhost:8502"
+  },
+  "logging": {
+    "show_emoji": true,
+    "verbose": true
+  },
+  "checks": {
+    "verify_streamlit": true,
+    "verify_script_exists": true,
+    "check_port_availability": true
+  },
+  "timeouts": {
+    "startup_wait": 3,
+    "process_timeout": 30
+  }
+} 

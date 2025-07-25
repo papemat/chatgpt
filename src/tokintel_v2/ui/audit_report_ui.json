@@ -1,0 +1,183 @@
+{
+  "module": "ui",
+  "files": [
+    {
+      "filename": "ui/tiktok_library.py",
+      "structure": "Gestisce la libreria TikTok dell’utente: visualizza, filtra, esporta e rianalizza i video salvati.",
+      "typing": "parziale (alcune funzioni tipizzate, altre no)",
+      "docstring": "presenti nelle classi e funzioni principali, ma non sempre dettagliate",
+      "imports": "ordinati e tutti usati",
+      "components": "Streamlit ben organizzato, sidebar ricca, griglia video, analytics, esportazione",
+      "problems": [
+        "funzione run() troppo lunga e tuttofare",
+        "ripetizione codice nelle card video (ora risolvibile con components.py)",
+        "alcuni print() invece di logger"
+      ],
+      "suggestions": [
+        "modularizzare run() in più funzioni pure",
+        "usare solo logger strutturato",
+        "tipizzare tutte le funzioni pubbliche"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "ui/trend_personale.py",
+      "structure": "Dashboard per trend personali: mostra grafici, insight, keyword, emozioni, timeline.",
+      "typing": "completo nelle funzioni principali",
+      "docstring": "presenti e chiare",
+      "imports": "ordinati e usati",
+      "components": "sidebar filtri, metriche, grafici, esportazione",
+      "problems": [
+        "file monolitico, alcune funzioni lunghe",
+        "assenza logging strutturato"
+      ],
+      "suggestions": [
+        "estrarre funzioni di rendering grafici in components.py",
+        "aggiungere logging per errori/statistiche"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "ui/import_tiktok.py",
+      "structure": "Interfaccia per login TikTok, scraping e importazione video/collezioni.",
+      "typing": "parziale",
+      "docstring": "presenti nelle classi, meno nelle funzioni",
+      "imports": "ordinati e usati",
+      "components": "sidebar opzioni, tab video/collezioni, login, batch import",
+      "problems": [
+        "alcune funzioni molto lunghe (es. import_saved_videos)",
+        "ripetizione rendering video-card",
+        "gestione errori migliorabile"
+      ],
+      "suggestions": [
+        "estrarre card video e badge in components.py",
+        "modularizzare funzioni di import",
+        "tipizzare meglio i parametri"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "ui/pro_dashboard.py",
+      "structure": "Dashboard avanzata con tutte le funzionalità Pro: chat, analytics, reportistica, stato sistema.",
+      "typing": "parziale",
+      "docstring": "presenti nelle funzioni principali",
+      "imports": "ordinati e usati",
+      "components": "header, sidebar, tab, chat, analytics, azioni rapide",
+      "problems": [
+        "molte funzioni globali, poco riuso tra file",
+        "alcuni try/except generici",
+        "alcuni controlli Pro duplicati"
+      ],
+      "suggestions": [
+        "estrarre funzioni comuni in components.py",
+        "migliorare typing e modularità",
+        "usare logger strutturato ovunque"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "ui/analytics.py",
+      "structure": "Dashboard analytics: mostra top video, trend, wordcloud, sentiment, PDF export.",
+      "typing": "parziale",
+      "docstring": "presenti solo in parte",
+      "imports": "ordinati e usati",
+      "components": "sidebar filtri, metriche, grafici, PDF export",
+      "problems": [
+        "alcune funzioni lunghe e poco modulari",
+        "alcuni try/except generici",
+        "assenza logging strutturato"
+      ],
+      "suggestions": [
+        "estrarre rendering metriche/grafici in components.py",
+        "aggiungere logging",
+        "tipizzare meglio"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "ui/chat_agents.py",
+      "structure": "Sistema di chat con agenti AI specializzati (strategist, copywriter, analyst).",
+      "typing": "parziale",
+      "docstring": "presenti nelle classi, meno nelle funzioni",
+      "imports": "ordinati e usati",
+      "components": "sidebar agenti, chat, pulsanti azione",
+      "problems": [
+        "alcuni metodi privati non tipizzati",
+        "gestione stato chat migliorabile"
+      ],
+      "suggestions": [
+        "tipizzare tutte le funzioni",
+        "estrarre logica chat in modulo separato se cresce",
+        "aggiungere test di interazione"
+      ],
+      "status": "⚠️ warning"
+    },
+    {
+      "filename": "ui/cloud_interface.py",
+      "structure": "Interfaccia cloud per analisi video/testo via API, upload, risultati, raccomandazioni.",
+      "typing": "mancante",
+      "docstring": "scarse",
+      "imports": "ordinati e usati",
+      "components": "sidebar modalità, upload, risultati, raccomandazioni",
+      "problems": [
+        "nessun typing",
+        "nessun logging",
+        "gestione errori solo con st.error"
+      ],
+      "suggestions": [
+        "aggiungere typing e docstring",
+        "usare logger strutturato",
+        "estrarre box risultati in components.py"
+      ],
+      "status": "⚠️ warning"
+    },
+    {
+      "filename": "ui/components.py",
+      "structure": "Componenti riutilizzabili: card video, badge stato, metriche, progress bar.",
+      "typing": "completo",
+      "docstring": "presenti e chiare",
+      "imports": "ordinati e usati",
+      "components": "solo funzioni pure, nessun problema",
+      "problems": [],
+      "suggestions": [],
+      "status": "✅ ok"
+    },
+    {
+      "filename": "ui/json_to_markdown_report.py",
+      "structure": "Script per convertire audit_report_ui.json in AUDIT_REPORT_v2.2.md.",
+      "typing": "completo",
+      "docstring": "presenti e chiare",
+      "imports": "ordinati e usati",
+      "components": "solo funzioni pure, nessun problema",
+      "problems": [],
+      "suggestions": [],
+      "status": "✅ ok"
+    },
+    {
+      "filename": "ui/interface.py",
+      "structure": "Interfaccia Streamlit principale per analisi video, upload, risultati, export.",
+      "typing": "parziale",
+      "docstring": "presenti nelle classi, meno nelle funzioni",
+      "imports": "ordinati e usati",
+      "components": "sidebar configurazione, upload, risultati, export",
+      "problems": [
+        "alcuni metodi non tipizzati",
+        "alcuni try/except generici",
+        "gestione errori migliorabile"
+      ],
+      "suggestions": [
+        "tipizzare tutte le funzioni pubbliche",
+        "estrarre rendering metriche/upload in components.py",
+        "usare logger strutturato ovunque"
+      ],
+      "status": "🛠️ refactor utile"
+    }
+  ],
+  "global_suggestions": [
+    "Centralizzare componenti UI in components.py (card, badge, metriche, grafici)",
+    "Uniformare logging strutturato in tutte le interfacce",
+    "Tipizzare tutte le funzioni pubbliche e aggiungere docstring chiare",
+    "Aggiungere test unitari per chat_agents.py, trend_personale.py, analytics.py",
+    "Modularizzare funzioni troppo lunghe o monolitiche"
+  ]
+} 

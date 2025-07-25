@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  tokintel:
+    build: .
+    container_name: tokintel_v2_test
+    volumes:
+      - .:/app
+    command: pytest test_tokintel_launch.py 

@@ -1,0 +1,31 @@
+{
+  "module": "batch_auto_analyze",
+  "files": [
+    {
+      "filename": "batch_auto_analyze.py",
+      "structure": "Gestore per l'analisi automatica batch dei video non ancora analizzati. Classe principale BatchAutoAnalyzer, funzioni di utility e CLI.",
+      "typing": "presente nei parametri principali, ma non sempre nei ritorni",
+      "docstring": "presenti e chiare per classi e funzioni principali",
+      "imports": "ordinati e usati",
+      "components": "BatchAutoAnalyzer, metodi async, logging strutturato, CLI con argparse",
+      "problems": [
+        "alcuni try/except generici",
+        "alcune funzioni lunghe",
+        "alcuni metodi pubblici senza typing esplicito"
+      ],
+      "suggestions": [
+        "modularizzare funzioni lunghe",
+        "typing esplicito ovunque",
+        "logging più dettagliato negli errori",
+        "aggiungere test unitari/integrati"
+      ],
+      "status": "🛠️ refactor utile"
+    }
+  ],
+  "global_suggestions": [
+    "Uniformare typing e docstring ovunque",
+    "Logging dettagliato negli errori",
+    "Modularizzare funzioni lunghe",
+    "Aggiungere test unitari/integrati"
+  ]
+} 

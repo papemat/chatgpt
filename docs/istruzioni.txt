@@ -1,0 +1,160 @@
+Perfetto, ottima decisione! Procediamo creando una roadmap tecnica dettagliata per Cursor, in modo che possa implementare tutte queste funzionalità in modo modulare, ordinato e stabile. Dividerò il tutto in moduli progressivi, con priorità e dipendenze, così puoi copiarlo direttamente in Cursor e farlo lavorare passo dopo passo.
+
+🧠 Prompt per Cursor – Espansione TokIntel v2
+markdown
+Copia
+Modifica
+# 🎯 OBIETTIVO
+
+Estendere TokIntel v2 con funzionalità avanzate in modo modulare e progressivo.
+Il sistema deve rimanere cross-platform, stabile e usabile in locale via Streamlit o CLI.
+Ogni nuova funzione dovrà essere:
+- integrata ordinatamente nei moduli esistenti
+- testata con script autonomi
+- documentata in `README.md` e `CHANGELOG.md`
+
+---
+
+## 🔧 MODULI DA IMPLEMENTARE (Roadmap)
+
+### ✅ FASE 0 – Setup
+
+1. Verifica che tutte le dipendenze siano aggiornate (es. `streamlit`, `reportlab`, `flask`, `sqlite3`)
+2. Crea nuova cartella `extensions/` dove andranno i moduli aggiuntivi
+3. Tutto il codice nuovo dovrà essere:
+   - compatibile con `TokIntel_v2`
+   - documentato nei commenti
+   - testabile in isolamento
+
+---
+
+### 🟡 FASE 1 – EXPORT AVANZATO
+
+📁 File: `extensions/export_tools.py`
+
+- [ ] Funzione `export_to_pdf(data: dict, filepath: str)`
+- [ ] Funzione `export_to_csv(data: list, filepath: str)`
+- [ ] Bottone in Streamlit: “📤 Esporta PDF” e “📤 Esporta CSV”
+- [ ] Aggiungi esempio d’uso in `ui/interface.py`
+- [ ] Test: `test_export_tools.py`
+
+---
+
+### 🟡 FASE 2 – API REST LOCALE
+
+📁 File: `extensions/api_server.py`
+
+- [ ] Framework: FastAPI o Flask
+- [ ] Endpoint `/analyze` (POST file video, restituisce JSON)
+- [ ] Endpoint `/status` (GET – health check)
+- [ ] Token di autenticazione da `.env`
+- [ ] Script di avvio: `start_api.py`
+- [ ] Test: `test_api_server.py`
+
+---
+
+### 🟡 FASE 3 – AI ANALYST
+
+📁 File: `extensions/ai_analyst.py`
+
+- [ ] Funzione `generate_summary(text: str) -> str`
+- [ ] Funzione `classify_usefulness(text: str) -> str` (Es: “Utile”, “Riciclato”, “Virale”)
+- [ ] Suggerimenti automatici su “hook” e miglioramenti
+- [ ] Integrazione in dashboard finale video
+
+---
+
+### 🟢 FASE 4 – DASHBOARD MULTI-VIDEO
+
+📁 File: `extensions/multi_dashboard.py`
+
+- [ ] Tabella con i video analizzati (caricati da DB o JSON locale)
+- [ ] Filtri per tag, punteggio, topic
+- [ ] Grafici con `plotly` o `matplotlib`
+- [ ] Esporta tabella come CSV
+- [ ] Test: `test_multi_dashboard.py`
+
+---
+
+### 🟢 FASE 5 – SISTEMA PROGETTI/COLLEZIONI
+
+📁 File: `db/collections_manager.py`
+
+- [ ] Crea/gestisci progetti (cartelle logiche)
+- [ ] Salva ogni analisi sotto un progetto
+- [ ] Visualizzazione dashboard per singolo progetto
+- [ ] Test: `test_collections_manager.py`
+
+---
+
+### 🔵 FASE 6 – NOTE & BOOKMARK
+
+📁 File: `extensions/notes_manager.py`
+
+- [ ] Aggiungi sistema di note testuali e timestamp
+- [ ] Salva note in `.json` o `SQLite`
+- [ ] Mostra note accanto all’analisi video
+- [ ] Test: `test_notes_manager.py`
+
+---
+
+### 🔵 FASE 7 – BEST HOOK EXTRACTOR
+
+📁 File: `extensions/hook_extractor.py`
+
+- [ ] Segmenta video in clip
+- [ ] Estrai audio peak, parole chiave, cambio facciale
+- [ ] Output: “Usa questo hook: ‘XYZ’”
+- [ ] Test: `test_hook_extractor.py`
+
+---
+
+### 🔵 FASE 8 – CLOUD SYNC (FACOLTATIVO)
+
+📁 File: `extensions/cloud_sync.py`
+
+- [ ] Upload su Google Drive/Dropbox
+- [ ] Gestione credenziali locali
+- [ ] Backup analisi compressi
+- [ ] Test: `test_cloud_sync.py`
+
+---
+
+### 🔵 FASE 9 – LOGGING PRIVATO
+
+📁 File: `extensions/private_logging.py`
+
+- [ ] Modalità privata (nessuna trasmissione)
+- [ ] Logging dettagliato con timestamp
+- [ ] JSON dei log con eventi e ID video
+- [ ] Test: `test_private_logging.py`
+
+---
+
+## 📦 OUTPUT ATTESI
+
+Per ogni modulo completato, genera:
+- file Python del modulo
+- test `.py` associato
+- aggiornamento `README.md`
+- aggiornamento `CHANGELOG.md`
+- se serve, bottone o sezione in `ui/interface.py`
+
+---
+
+## 🧪 PRIORITÀ SUGGERITE
+
+1. Export avanzato (fase 1)
+2. API REST (fase 2)
+3. AI Analyst (fase 3)
+4. Dashboard Multi-video (fase 4)
+5. Sistema progetti (fase 5)
+6. Tutto il resto in ordine libero o parallelo
+
+---
+
+## ✅ AVVIA
+
+Inizia con la **FASE 1 – Export Avanzato**.
+
+Crea: `export_tools.py`, `test_export_tools.py`, integra in UI e documenta tutto.

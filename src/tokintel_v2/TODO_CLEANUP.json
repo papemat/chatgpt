@@ -1,0 +1,93 @@
+[
+  {
+    "task": "Suddividere DatabaseManager in più classi (UserManager, VideoManager, ecc.)",
+    "module": "db/database.py",
+    "priority": "alta",
+    "status": "done"
+  },
+  {
+    "task": "Modularizzare funzioni lunghe in ui/ (es. run, rendering, filtri)",
+    "module": "ui/",
+    "priority": "alta",
+    "status": "done"
+  },
+  {
+    "task": "Estrarre componenti UI riutilizzabili in ui/components.py",
+    "module": "ui/components.py",
+    "priority": "alta",
+    "status": "done"
+  },
+  {
+    "task": "Uniformare typing e docstring in tutti i moduli critici",
+    "module": "tutti",
+    "priority": "media",
+    "status": "pending"
+  },
+  {
+    "task": "Sostituire tutti i print() con logger strutturato",
+    "module": "tutti",
+    "priority": "media",
+    "status": "pending"
+  },
+  {
+    "task": "Rendere i blocchi try/except più granulari e specifici",
+    "module": "tutti",
+    "priority": "media",
+    "status": "pending"
+  },
+  {
+    "task": "Aggiungere test unitari/integrati per DatabaseManager, scraping, batch analyzer, UI",
+    "module": "db/, scraper/, batch_auto_analyze.py, ui/",
+    "priority": "alta",
+    "status": "done"
+  },
+  {
+    "task": "Aggiungere test edge-case per scraping e scoring",
+    "module": "scraper/, analytics/",
+    "priority": "media",
+    "status": "done",
+    "comment": "Copertura edge-case completata (404, URL malformati, input anomali, categorie sconosciute)."
+  },
+  {
+    "task": "Testare edge case (Playwright, scraping, errori di rete, DB)",
+    "module": "scraper/, analytics/",
+    "priority": "media",
+    "status": "pending"
+  },
+  {
+    "task": "Pulizia file/cartelle temporanee, duplicati, non usati",
+    "module": "tutti",
+    "priority": "alta",
+    "status": "done"
+  },
+  {
+    "task": "Aggiornare .gitignore per ignorare file generati e temporanei",
+    "module": ".gitignore",
+    "priority": "media",
+    "status": "pending"
+  },
+  {
+    "task": "Rimozione script legacy/non usati",
+    "module": "tutti",
+    "priority": "bassa",
+    "status": "pending"
+  },
+  {
+    "task": "Validare input utente e argomenti CLI",
+    "module": "ui/, batch_auto_analyze.py, scheduler/",
+    "priority": "media",
+    "status": "pending"
+  },
+  {
+    "task": "Verificare che nessuna credenziale sia hardcoded",
+    "module": "tutti",
+    "priority": "alta",
+    "status": "done"
+  },
+  {
+    "task": "Migliorare gestione configurazioni (YAML centralizzato)",
+    "module": "core/config.py, config.yaml",
+    "priority": "media",
+    "status": "pending"
+  }
+] 

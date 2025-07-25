@@ -1,0 +1,124 @@
+{
+  "timestamp": "2025-07-24T03:54:00.127808",
+  "test_models": [
+    "mistral",
+    "llama2",
+    "llama3",
+    "gemma",
+    "codellama"
+  ],
+  "backends": {
+    "lmstudio": {
+      "backend": "lmstudio",
+      "models": {
+        "mistral": {
+          "success": false,
+          "model_name": "mistral",
+          "actions_taken": [
+            "Provided download instructions",
+            "Opened LM Studio for manual model loading"
+          ],
+          "errors": [],
+          "instructions": [
+            "📥 Download Mistral 7B Instruct v0.2:",
+            "🔗 https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+            "📋 Steps:",
+            "1. Click the link above",
+            "2. Download the .gguf file (choose appropriate size)",
+            "3. Place it in LM Studio models directory",
+            "4. Open LM Studio and load the model",
+            "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+            "💡 Tip: You can also drag .gguf files directly into LM Studio"
+          ]
+        },
+        "llama2": {
+          "success": false,
+          "model_name": "llama2",
+          "actions_taken": [
+            "Provided download instructions",
+            "Opened LM Studio for manual model loading"
+          ],
+          "errors": [],
+          "instructions": [
+            "📥 Download Llama 2 7B Chat:",
+            "🔗 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF",
+            "📋 Steps:",
+            "1. Click the link above",
+            "2. Download the .gguf file (choose appropriate size)",
+            "3. Place it in LM Studio models directory",
+            "4. Open LM Studio and load the model",
+            "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+            "💡 Tip: You can also drag .gguf files directly into LM Studio"
+          ]
+        },
+        "llama3": {
+          "success": false,
+          "model_name": "llama3",
+          "actions_taken": [
+            "Provided download instructions",
+            "Opened LM Studio for manual model loading"
+          ],
+          "errors": [],
+          "instructions": [
+            "📥 Download Llama 3 8B Instruct:",
+            "🔗 https://huggingface.co/TheBloke/Llama-3-8B-Instruct-GGUF",
+            "📋 Steps:",
+            "1. Click the link above",
+            "2. Download the .gguf file (choose appropriate size)",
+            "3. Place it in LM Studio models directory",
+            "4. Open LM Studio and load the model",
+            "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+            "💡 Tip: You can also drag .gguf files directly into LM Studio"
+          ]
+        },
+        "gemma": {
+          "success": false,
+          "model_name": "gemma",
+          "actions_taken": [
+            "Provided download instructions",
+            "Opened LM Studio for manual model loading"
+          ],
+          "errors": [],
+          "instructions": [
+            "📥 Download Gemma 2B Instruct:",
+            "🔗 https://huggingface.co/TheBloke/gemma-2b-it-GGUF",
+            "📋 Steps:",
+            "1. Click the link above",
+            "2. Download the .gguf file (choose appropriate size)",
+            "3. Place it in LM Studio models directory",
+            "4. Open LM Studio and load the model",
+            "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+            "💡 Tip: You can also drag .gguf files directly into LM Studio"
+          ]
+        },
+        "codellama": {
+          "success": false,
+          "model_name": "codellama",
+          "actions_taken": [
+            "Provided download instructions",
+            "Opened LM Studio for manual model loading"
+          ],
+          "errors": [],
+          "instructions": [
+            "📥 Download Code Llama 7B Instruct:",
+            "🔗 https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF",
+            "📋 Steps:",
+            "1. Click the link above",
+            "2. Download the .gguf file (choose appropriate size)",
+            "3. Place it in LM Studio models directory",
+            "4. Open LM Studio and load the model",
+            "📁 Models directory: C:\\Users\\Matteo/AppData/Local/LM Studio/models",
+            "💡 Tip: You can also drag .gguf files directly into LM Studio"
+          ]
+        }
+      },
+      "summary": {
+        "total_models": 5,
+        "available_models": 0,
+        "unavailable_models": 5,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "summary": {}
+}

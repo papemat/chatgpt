@@ -1,0 +1,78 @@
+{
+  "module": "scraper",
+  "files": [
+    {
+      "filename": "scraper/tiktok_integration.py",
+      "structure": "Integrazione tra scraping, download e database. Gestisce sessioni, sync video, download batch, pulizia sessioni.",
+      "typing": "presente nei parametri principali, ma non ovunque",
+      "docstring": "presenti e chiare per classi e funzioni principali",
+      "imports": "ordinati e usati",
+      "components": "classe TikTokIntegration, metodi async, logging strutturato",
+      "problems": [
+        "alcuni try/except generici",
+        "metodi lunghi",
+        "responsabilità multiple nella classe"
+      ],
+      "suggestions": [
+        "modularizzare in più classi/funzioni",
+        "typing esplicito ovunque",
+        "logging più dettagliato negli errori"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "scraper/download_tiktok_video.py",
+      "structure": "Downloader asincrono per video TikTok, gestione cache, metadati, batch download, Playwright.",
+      "typing": "presente in quasi tutte le funzioni",
+      "docstring": "presenti e chiare",
+      "imports": "ordinati e usati",
+      "components": "classe TikTokVideoDownloader, metodi async, gestione cache, logging",
+      "problems": [
+        "alcuni metodi molto lunghi",
+        "try/except generici"
+      ],
+      "suggestions": [
+        "modularizzare funzioni lunghe",
+        "logging più dettagliato",
+        "testare edge case Playwright"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "scraper/tiktok_saves.py",
+      "structure": "Scraper asincrono per video salvati e collezioni, login, estrazione, Playwright.",
+      "typing": "presente in quasi tutte le funzioni",
+      "docstring": "presenti e chiare",
+      "imports": "ordinati e usati",
+      "components": "classe TikTokSavesScraper, metodi async, login, estrazione, logging",
+      "problems": [
+        "funzioni lunghe",
+        "try/except generici"
+      ],
+      "suggestions": [
+        "modularizzare funzioni di scraping",
+        "logging più dettagliato",
+        "typing su tutti i metodi"
+      ],
+      "status": "🛠️ refactor utile"
+    },
+    {
+      "filename": "scraper/__init__.py",
+      "structure": "Esporta tutte le classi/funzioni principali del modulo.",
+      "typing": "non applicabile",
+      "docstring": "presente",
+      "imports": "ordinati e usati",
+      "components": "solo import/export, nessun problema",
+      "problems": [],
+      "suggestions": [],
+      "status": "✅ ok"
+    }
+  ],
+  "global_suggestions": [
+    "Modularizzare classi/funzioni troppo lunghe",
+    "Uniformare typing e docstring ovunque",
+    "Logging dettagliato negli errori",
+    "Testare edge case (Playwright, scraping, errori di rete)",
+    "Aggiungere test unitari/integrati"
+  ]
+} 
